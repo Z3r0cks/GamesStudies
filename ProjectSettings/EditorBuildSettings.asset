@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Samples/VIVE Wave XR Plugin - Essence/5.3.0-r.26/Essence/PassThrough/PassThrough.unity
+    guid: 69abbfa26036f0442a5d3f24159e2b7c
+  - enabled: 1
+    path: Assets/Scenes/testScene.unity
+    guid: 8c7c5424824291345ab1f5a38bb70c70
+  m_configObjects:
+    com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: eb97e2908c962ed43be10b8b96c125d7, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d9ca758dc9debbc44a6d9e5d72343392, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5e883d508a4d853428669540de7a9284, type: 2}
